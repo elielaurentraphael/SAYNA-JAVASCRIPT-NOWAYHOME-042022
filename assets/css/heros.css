@@ -49,7 +49,7 @@
 /* Design de la section fondations */
 
 #fondations {
-    background-image: url(../img/img20.png);
+    background-image: url("../img/img20.png");
     height: 500px;
     background-position: center;
     background-size: cover;
