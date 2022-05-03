@@ -3,6 +3,7 @@
     --black-ad-color: #000000;
     --white-ad-color: #ffffff;
     --blue-color: #114c92;
+    --trans-ad-color: rgba(250, 100, 100, 0);
 }
 
 #hero {
