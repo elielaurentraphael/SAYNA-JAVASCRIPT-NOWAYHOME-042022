@@ -101,11 +101,13 @@ footer .brand img:nth-child(2) {
 #hero .description {
     font-weight: bold;
     font-size: 1.4em;
+    display: none;
 }
 
 #hero .box {
     position: relative;
     top: 25%;
+    left: -60%;
 }
 
 

@@ -1,3 +1,8 @@
+// Sur les boutons, ajouter un effet “hover” lorsque la souris survole l’élément : inversion
+// des couleurs du bouton (fond + texte), effet de surbrillance autour du bouton et texte
+// avec des traits plus épais.
+
+
 let btna = document.getElementsByClassName("btna");
 
 console.log(btna);
@@ -101,3 +106,28 @@ for (let i = 0; i < btn4.length; i++) {
         btn4[i].style.boxShadow = "none";
     })
 }
+
+
+// Dans le header les rubriques du menu doivent être surligné lorsque la souris survole
+// l’élément.
+
+let menu = document.querySelectorAll("li");
+
+menu.forEach(function(li) {
+    li.addEventListener("mouseover", () => {
+        li.style.textDecoration = "line-through";
+    })
+    li.addEventListener("mouseout", () => {
+        li.style.textDecoration = "none";
+    })
+})
+
+// Tous les titres du site (avec la police Far From Home) doivent 
+// de la gauche vers leur place (à droite), durée du mouvement: 6 secondes. 
+
+$(document).ready(function() {
+    $(".box").animate({ left: "+=60%" }, 6000);
+    // 1s après, Les sous-titres doivent apparaître progressivement
+    // l'opacité varie de 0% à 100% durant 10s
+    setTimeout($(".description").fadeIn(10000, "swing"), 1000);
+})
