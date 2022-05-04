@@ -243,6 +243,14 @@ footer .media img {
     border-radius: 50%;
 }
 
+.footer-icones {
+    margin: 5px;
+    padding: 15px;
+    background: var(--primary-ad-color);
+    color: var(--black-ad-color);
+    border-radius: 100%;
+}
+
 footer .copyright {
     padding: 10px;
 }

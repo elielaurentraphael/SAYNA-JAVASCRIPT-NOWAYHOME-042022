@@ -17,3 +17,17 @@ for (let i = 0; i < btn5.length; i++) {
         btn5[i].style.boxShadow = "none";
     })
 }
+
+
+let foico = document.getElementsByClassName("footer-icones");
+
+console.log(foico);
+
+for (let i = 0; i < foico.length; i++) {
+    foico[i].addEventListener("mouseover", () => {
+        foico[i].style.color = "var(--white-ad-color";
+    })
+    foico[i].addEventListener("mouseout", () => {
+        foico[i].style.color = "var(--black-ad-color)";
+    })
+}
