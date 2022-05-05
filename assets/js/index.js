@@ -128,6 +128,14 @@ menu.forEach(function(li) {
 $(document).ready(function() {
     $(".box").animate({ left: "+=60%" }, 6000);
     // 1s après, Les sous-titres doivent apparaître progressivement
-    // l'opacité varie de 0% à 100% durant 10s
-    setTimeout($(".description").fadeIn(10000, "swing"), 1000);
+    // l'opacité varie de 0% à 100% durant 20s
+    setTimeout($(".description").fadeIn(20000, "swing"), 1000);
+})
+
+$(document).ready(function() {
+    $(".boxa").animate({ left: "+=60%" }, 6000);
+})
+
+$(document).ready(function() {
+    $("#marveltext").animate({ left: "+=95%" }, 6000);
 })

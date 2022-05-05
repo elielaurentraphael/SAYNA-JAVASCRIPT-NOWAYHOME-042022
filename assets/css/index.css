@@ -7,12 +7,30 @@
 }
 
 #hero {
-    background-image: url("../img/img1.png");
+    /*background-image: url("../img/img1.png");*/
+    background-image: none;
     background-color: var(--primary-ad-color);
     height: 870px;
     background-repeat: no-repeat;
     background-position: center right;
-    background-size: auto;
+    background-size: cover;
+}
+
+.boxa {
+    position: relative;
+    top: -15%;
+    left: -60%;
+}
+
+#marveltext {
+    position: relative;
+    left: -70%;
+}
+
+#marvelimage {
+    position: absolute;
+    left: 52%;
+    /*top: 0%;*/
 }
 
 .titre {
