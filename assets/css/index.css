@@ -30,7 +30,7 @@
 #marvelimage {
     position: absolute;
     left: 52%;
-    /*top: 0%;*/
+    top: 50px;
 }
 
 .titre {

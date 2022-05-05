@@ -136,6 +136,19 @@ $(document).ready(function() {
     $(".boxa").animate({ left: "+=60%" }, 6000);
 })
 
+// Animation du texte MARVEL
+
 $(document).ready(function() {
     $("#marveltext").animate({ left: "+=95%" }, 6000);
+})
+
+// Animation de l'image MARVEL et de l'image SPIDERMAN
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        let scroll = $(window).scrollTop();
+        $("#marvelimage").css("top", scroll + "px");
+        console.log(scroll);
+    })
+
 })
